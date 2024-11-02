@@ -1,0 +1,29 @@
+---
+import {products} from "../lib/data"
+---
+
+<section class="relative bg-image-hero-1 h-screen">
+    <!--<div>
+        <img src={products[0].hero} class="w-full h-full" alt={products[0].title}>
+    </div> -->
+    <div class="flex justify-center text-center py-5">
+        <section>
+            <h1 class="text-3xl font-semibold">{products[1].title}</h1>
+        <p class="p-3 uppercase text-xl font-semibold">
+            {products[1].desc}
+        </p>
+        <footer class="grid grid-cols-2 p-3">
+            <a href="#" class="uppercase">Learn More <span class="text-green-500 font-semibold">></span></a>
+            <a href="#" class="uppercase">Buy <span class="text-green-500 font-semibold">></span></a>
+        </footer>
+        </section>
+    </div>
+</section>
+
+<style is:global>
+    .bg-image-hero-1{
+		background-image: url('../../public/images/hero-two.webp');
+		background-position: center;
+		background-size: cover;
+	}
+</style>

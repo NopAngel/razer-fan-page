@@ -1,0 +1,121 @@
+---
+import { bento } from "../lib/data";
+---
+
+<section class="grid grid-cols-2">
+    <article class="bg-banner-one h-[500px]">
+        <div class="text-center my-8">
+            <h1 class="text-3xl uppercase font-semibold">{bento[0].title}</h1>
+            <p class="uppercase font-semibold">{bento[0].desc}</p>
+            <footer class="grid grid-cols-2 p-3">
+                <a href="#" class="uppercase">Learn More <span class="text-green-500 font-semibold">></span></a>
+                <a href="#" class="uppercase">Buy <span class="text-green-500 font-semibold">></span></a>
+            </footer>
+        </div>
+        <div>
+        </div>
+    </article>
+    <article class="bg-banner-two h-[500px] text-black">
+        <div class="text-center my-8">
+            <div class="bg-yellow-500 border-[1px] uppercase text-xl font-semibold w-fit mx-auto px-2 border-black">
+                <p>{bento[1].badgeTitle}</p>
+            </div>
+            <h1 class="text-3xl uppercase font-semibold">{bento[1].title}</h1>
+            <p class="uppercase font-semibold">{bento[1].desc}</p>
+            <footer class="grid grid-cols-2 p-3">
+                <a href="#" class="uppercase">Learn More <span class="text-green-500 font-semibold">></span></a>
+                <a href="#" class="uppercase">Buy <span class="text-green-500 font-semibold">></span></a>
+            </footer>
+        </div>
+        <div>
+        </div>
+    </article>
+    <article class="bg-banner-tree h-[500px]">
+        <div class="text-center my-8">
+            <h1 class="text-3xl uppercase font-semibold">{bento[2].title}</h1>
+            <p class="uppercase font-semibold">{bento[2].desc}</p>
+            <footer class="grid grid-cols-2 p-3">
+                <a href="#" class="uppercase">Learn More <span class="text-green-500 font-semibold">></span></a>
+                <a href="#" class="uppercase">Buy <span class="text-green-500 font-semibold">></span></a>
+            </footer>
+        </div>
+        <div>
+        </div>
+    </article>
+    <article class="bg-banner-four h-[500px]">
+        <div class="text-center my-8">
+            <h1 class="text-3xl uppercase font-semibold">{bento[3].title}</h1>
+            <p class="uppercase font-semibold">{bento[3].desc}</p>
+            <footer class="grid grid-cols-2 p-3">
+                <a href="#" class="uppercase">Learn More <span class="text-green-500 font-semibold">></span></a>
+                <a href="#" class="uppercase">Buy <span class="text-green-500 font-semibold">></span></a>
+            </footer>
+        </div>
+        <div>
+        </div>
+    </article>
+    <article class="bg-banner-five h-[500px]">
+        <div class="text-center my-8">
+            <h1 class="text-3xl uppercase font-semibold">{bento[4].title}</h1>
+            <p class="uppercase font-semibold">{bento[4].desc}</p>
+            <footer class="grid grid-cols-2 p-3">
+                <a href="#" class="uppercase">Learn More <span class="text-green-500 font-semibold">></span></a>
+                <a href="#" class="uppercase">Buy <span class="text-green-500 font-semibold">></span></a>
+            </footer>
+        </div>
+        <div>
+        </div>
+    </article>
+    <article class="bg-banner-six h-[500px]">
+        <div class="text-center my-8">
+            <h1 class="text-3xl uppercase font-semibold">{bento[5].title}</h1>
+            <p class="uppercase font-semibold">{bento[5].desc}</p>
+            <footer class="grid grid-cols-2 p-3">
+                <a href="#" class="uppercase">Learn More <span class="text-green-500 font-semibold">></span></a>
+                <a href="#" class="uppercase">Buy <span class="text-green-500 font-semibold">></span></a>
+            </footer>
+        </div>
+        <div>
+        </div>
+    </article>
+
+</section>
+
+<style>
+    .bg-banner-one {
+        background-image: url('../../public/images/bento-1.webp');
+		background-position: center;
+		background-size: cover;
+    }
+
+    .bg-banner-two {
+        background-image: url('../../public/images/bento-2.webp');
+		background-position: center;
+		background-size: cover;
+    }
+
+    .bg-banner-tree {
+        background-image: url('../../public/images/bento-3.webp');
+		background-position: center;
+		background-size: cover;
+    }
+
+    .bg-banner-four {
+        background-image: url('../../public/images/bento-4.webp');
+		background-position: center;
+		background-size: cover;
+    }
+
+    .bg-banner-five {
+        background-image: url('../../public/images/bento-5.webp');
+		background-position: center;
+		background-size: cover;
+    }
+
+    .bg-banner-six {
+        background-image: url('../../public/images/bento-6.webp');
+		background-position: center;
+		background-size: cover;
+    }
+    
+</style>
